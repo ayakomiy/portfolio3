@@ -7,38 +7,45 @@ body{
     margin: 0;
     min-width: 1076px;
 }
+/*ヘッダーのスタイルシート*/
+
 .block-header{
     width: 100%;
     box-shadow: 0 5px rgb(196,60,60);
 
 }
-
 .header-list{
     list-style: none;
     margin: 10px 0;
-    padding: 10px 0 10px 20px;
+    padding: 0 0 5px 10px;
 }
-
 .header-list li {
-    width:82px;
+    width: 63px;
     display:inline-block;
     text-align: center;
 }
-
 .header-list li a{
     text-decoration: none;
     color: #333333;
 }
-
 .header-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 82px;
-    width: 82px;
+    height: 50px;
+    width: 60px;
 }
-
+.img-home{
+    height: 70%;
+}
+.img-about{
+    height: 40%;
+}
+.img-projects{
+    height: 60%;
+}
 .header-list li a p{
     margin: auto;
-    line-height: 0.8;
+    font-size: 13px;
+    line-height: 0.6;
 }
