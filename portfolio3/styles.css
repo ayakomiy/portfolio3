@@ -90,7 +90,7 @@ body{
 }
 .sub-title{
     margin: 0;
-    padding: 55px 0 0 0;
+    padding: 55px 0 10px 0;
     width: 100%;
     font-size: 40px;
     color: white;
@@ -152,4 +152,56 @@ body{
 }
 
 /*Project部分のスタイルシート*/
+
+.box-projects{}
+
+.sub-title2{
+    margin: 0;
+    padding: 55px 0 10px 0;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(196,60,60);
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+.sub-title2-line{
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.5;
+    color: dimgray;
+    letter-spacing: -0.4em;
+}
+.sub-title2-line span{
+    font-size: 24px;
+    color: dimgray;
+    font-weight: lighter;
+    display: inline-block;
+    transform: scaleX(3);
+}
+.projects-list{
+    list-style: none;
+    display: flex;
+}
+
+.profects-list li{
+    
+}
+
+.wrap-img{}
+
+.project-title{}
+
+.hifn{}
+
+.outline{}
+
+.acount-title{}
+
+.acount{}
+
+.site-link{}
+
+.site-link a{}
 
