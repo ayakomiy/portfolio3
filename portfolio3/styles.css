@@ -153,7 +153,9 @@ body{
 
 /*Project部分のスタイルシート*/
 
-.box-projects{}
+.box-projects{
+    margin-bottom: 20px;
+}
 
 .sub-title2{
     margin: 0;
@@ -266,4 +268,80 @@ body{
     padding: 4px 10px;
     margin: 10px 20px;
 }
+/*Contact Me 部分のスタイルシート*/
 
+.box-contact{}
+
+.sub-title3{
+    margin: 0;
+    padding: 55px 0 10px 0;
+    font-size: 40px;
+    color: dimgray;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.sub-title3 span{
+    color: rgb(196, 60, 60);
+}
+
+.contact-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list li{
+    background: rgb(235, 235, 235);
+    padding: 20px 10%;
+    margin: 0 10%;
+    border-bottom: solid 4px rgb(196, 60, 60);
+    text-align: center;
+}
+
+.phone-pic{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.phone{
+    color: dimgray;
+    letter-spacing: 0.1em;
+    margin: 10px auto 0;
+}
+
+.phone-num{
+    color: dimgray;
+    letter-spacing: 0.1em;
+    margin: 10px auto 0;
+}
+
+.mail-pic{
+    width: 30%;
+}
+
+.email{
+    color: dimgray;
+    letter-spacing: 0.1em;
+    margin: 4px auto;
+
+}
+
+.mail-add{
+    color: rgb(196, 60, 60);
+    border-bottom: dotted;
+    letter-spacing: 0.1em;
+    margin: 5px auto 0;
+}
+
+/*フッターのイメージシート*/
+
+.footer{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 10px;
+    color:dimgray;
+    background: rgb(235, 235, 235);
+    margin: 130px auto 0;
+}
