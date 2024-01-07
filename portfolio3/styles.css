@@ -181,7 +181,7 @@ body{
     transform: scaleX(3);
 }
 .projects-list{
-    margin: 100px 0 50px 0;
+    margin: 100px 7% 50px 5%;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -196,36 +196,74 @@ body{
 .wrap-img{
     display: flex;
     justify-content: center;
-    margin-right: 100px;
+    margin: 0 10%;
     padding: 0 0 20px 0;
     border: solid 2px rgb(196,60,60);
 }
 .img-bar{
-    margin: 15px 0 40px 40px;
-    height: 230px 
+    margin: 15px 0 40px 15%;
+    height: 200px 
 }
 
 .img-twi{
-    margin: 20px 60px 0 0;
+    margin: 20px 20% 0 0;
     height: 260px;
 }
 
 .img-netf{
-    margin: 27px 10px 9px 16px;
-    width: 280px 
+    margin: 27px 10% 9px 10%;
+    width: 80% 
 }
 
-.project-title{}
+.project-title{
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    color: dimgray;
+    margin: 20px auto 0 auto;
+}
 
-.hifn{}
+.hifn{
+    color: lightgray;
+    margin: 0 auto;
+}
 
-.outline{}
+.outline{
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    color: gray;
+    margin: 10px auto;
+}
 
-.acount-title{}
+.acount-title{
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: gray;
+    margin: 12px auto 7px;
+}
 
-.acount{}
+.acount{
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: gray;
+    line-height: 1.5;
+    margin: 0 auto;
+}
 
-.site-link{}
+.site-link{
+    line-height: 2;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
 
-.site-link a{}
+}
+
+.site-link a{
+    background: rgb(196, 60, 60);
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+    margin: 10px 20px;
+}
 
