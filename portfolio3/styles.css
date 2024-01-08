@@ -345,3 +345,82 @@ body{
     background: rgb(235, 235, 235);
     margin: 130px auto 0;
 }
+
+/* スマホ用のスタイルシート */
+@media screen and (max-width: 767px){
+    body{
+        min-width: 100%;
+    }
+    .header-list li{
+        max-width: 100%;
+    }
+    .box-home img{
+        float:none;
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }
+    .name{
+        margin: 0 auto 20px auto;
+        font-size: 75px;
+        text-align: center;
+    }
+    .box-home p{
+        margin:20px auto;
+        font-size: 20px;
+        text-align: center;
+    }
+    .box-about{
+        margin:85px auto 0;
+    }
+    .skil{
+        font-size: 15px;
+    }
+    .profile{
+        padding: 0 25px;
+        font-size: 12px;
+    }
+    .icon-list li{
+        margin: 0 40px 0 0;
+    }
+    .projects-list{
+        display: block;
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+    .projects-list li{
+        margin: 0;
+    }
+    .wrap-img{
+        margin: 0;
+        padding: 0 15px 15px;
+    }
+    .project-title{
+        font-size: 23px;
+    }
+    .out-line{
+        font-size: 12px;
+    }
+    .acount{
+        margin: 5px auto;
+    }
+    .site-link{
+        margin: 0 auto 30px;
+    }
+    .contact-list{
+        display: block;
+        padding: 0 30px;
+    }
+    .contact-list li{
+        margin: 40px auto;
+    }
+    .phone-pic{
+        width: 20%;
+    }
+    .mail-pic{
+        width: 20%;
+    }
+    .footer{
+        margin: 70px auto 0;
+    }
+}
